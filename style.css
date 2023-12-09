@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+}
+div {
+  height: 200px;
+  width: 20%;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.black {
+  background-color: black;
+}
