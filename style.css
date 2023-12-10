@@ -131,10 +131,12 @@ table {
   z-index: 1;
 }
 .nav-list {
+  padding-left: 40px;
   display: flex;
   color: #fff;
 }
 .nav-item {
+  height: 40px;
   padding-top: 12px;
   margin-left: 16px;
 }
