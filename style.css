@@ -14,6 +14,7 @@ li {
 }
 
 .nav_items {
+  padding: 0;
   display: flex;
 }
 .nav_item {
@@ -39,11 +40,11 @@ li {
 }
 .news_title {
   text-align: center;
-  margin: 16px;
+  margin: 16px 0;
 }
 .news_text {
   padding: 0;
-  margin-left: 16px;
+  margin: 0 0 0 16px;
 }
 .news_list {
   height: 40px;
