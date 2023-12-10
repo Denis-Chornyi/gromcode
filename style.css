@@ -147,7 +147,7 @@ table {
   background-color: beige;
 }
 .head {
-  top: 40%;
+  top: 35%;
   position: absolute;
   width: 200px;
   height: 200px;
@@ -163,8 +163,8 @@ table {
 .eye {
   position: absolute;
   top: 80px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 100%;
   background-color: grey;
 }
