@@ -1,13 +1,9 @@
-.horizontal {
-  height: 50px;
+.container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-wrap: wrap;
 }
-.vertical {
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.block {
+  min-width: 100px;
+  height: 100px;
+  flex-grow: 1;
 }
