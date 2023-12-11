@@ -1,14 +1,23 @@
-div > div {
-  width: 100px;
+* {
+  box-sizing: border-box;
+}
+.articles {
+  display: flex;
+}
+div.articles > div {
   height: 100px;
-  background: coral;
+  width: 150px;
+  background-color: beige;
+  margin: 16px;
 }
-.none {
-  display: none;
+.cropped {
+  overflow: hidden;
 }
-.hidden {
-  visibility: hidden;
+.both-scrolls {
+  overflow: scroll;
+  cursor: all-scroll;
 }
-.visible {
-  display: block;
+.vertical-scroll {
+  overflow-y: scroll;
+  cursor: all-scroll;
 }
