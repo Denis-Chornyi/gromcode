@@ -1,18 +1,8 @@
-.text {
-  position: relative;
-  display: inline-block;
-  margin: 16px;
-  border-bottom: 1px dotted black;
+.gallery {
+  display: flex;
+  overflow-x: scroll;
 }
-.tooltip {
-  display: none;
-  position: absolute;
-  bottom: -40px;
-  background-color: grey;
-  color: #fff;
-  padding: 8px;
-  border-radius: 4px;
-}
-.text:hover .tooltip {
-  display: block;
+.thumb {
+  margin: 8px;
+  cursor: all-scroll;
 }
