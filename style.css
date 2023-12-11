@@ -1,8 +1,27 @@
-.gallery {
-  display: flex;
-  overflow-x: scroll;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+body {
+  margin: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
-.thumb {
-  margin: 8px;
-  cursor: all-scroll;
+h1 {
+  word-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  line-height: 28px;
+}
+.language {
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+.translate {
+  color: grey;
+}
+a {
+  text-decoration: none;
 }
