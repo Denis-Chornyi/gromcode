@@ -126,7 +126,7 @@ table {
 
 .text {
   display: inline-block;
-  margin: 17px 16px;
+  margin: 16px;
   border-bottom: 1px dotted black;
 }
 .tooltip {
@@ -135,6 +135,7 @@ table {
   top: 40px;
   background-color: grey;
   color: #fff;
+  font-size: 17px;
   padding: 8px;
   border-radius: 4px;
 }
