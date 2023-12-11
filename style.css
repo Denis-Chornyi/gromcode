@@ -1,19 +1,14 @@
-* {
-  box-sizing: border-box;
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
 }
-header {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.none {
+  display: none;
 }
-.articles-list {
-  display: flex;
-  flex-wrap: wrap;
+.hidden {
+  visibility: hidden;
 }
-.article {
-  flex-basis: 300px;
-  flex-grow: 1;
-  margin: 8px;
-  padding: 16px;
-  background-color: bisque;
+.visible {
+  display: block;
 }
