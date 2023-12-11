@@ -1,23 +1,40 @@
 * {
   box-sizing: border-box;
 }
-.articles {
-  display: flex;
+.dropdown {
+  display: inline-block;
+  position: relative;
+  margin: 32px 16px;
 }
-div.articles > div {
-  height: 100px;
-  width: 150px;
-  background-color: beige;
-  margin: 16px;
+.menu-button {
+  padding: 16px;
+  background-color: darkgreen;
+  opacity: 0.8;
+  color: #fff;
+  cursor: pointer;
 }
-.cropped {
-  overflow: hidden;
+.dropdown:hover .menu-button {
+  opacity: 1;
 }
-.both-scrolls {
-  overflow: scroll;
-  cursor: all-scroll;
+.menu-list {
+  position: absolute;
+  top: 34px;
+  min-width: 120px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan;
+  color: #000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  display: none;
 }
-.vertical-scroll {
-  overflow-y: scroll;
-  cursor: all-scroll;
+.dropdown:hover .menu-list {
+  display: block;
+}
+.menu-item {
+  padding: 16px;
+}
+.menu-item:hover {
+  background-color: ghostwhite;
 }
