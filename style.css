@@ -1,32 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.cdnfonts.com/css/verdana');
 body {
-  margin: 32px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'Verdana', sans-serif;
 }
 
 h1 {
-  word-spacing: 20px;
-  text-align: center;
+  width: 50%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 74px;
+  white-space: nowrap;
+  margin: auto;
+}
+div {
+  height: 200px;
+  background-color: coral;
+  color: #fff;
   text-transform: uppercase;
+  text-align: center;
+  line-height: 200px;
 }
-p {
-  line-height: 28px;
-}
-.language {
-  font-weight: 900;
-  letter-spacing: 3px;
-  font-size: 24px;
-  opacity: 80%;
-  text-decoration: underline;
-}
-.translate {
-  color: grey;
-}
-a {
-  text-decoration: none;
-}
-/**/
