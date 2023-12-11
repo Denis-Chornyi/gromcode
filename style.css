@@ -125,6 +125,7 @@ table {
 /*////////////////////////////////*/
 
 .text {
+  position: relative;
   display: inline-block;
   margin: 18px 16px;
   border-bottom: 1px dotted black;
@@ -132,7 +133,7 @@ table {
 .tooltip {
   display: none;
   position: absolute;
-  top: 40px;
+  bottom: -40px;
   background-color: grey;
   color: #fff;
   padding: 8px;
