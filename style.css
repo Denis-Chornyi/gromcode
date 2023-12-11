@@ -1,20 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+* {
+  box-sizing: border-box;
+}
 body {
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
-
+section {
+  margin: 32px;
+}
+p {
+  line-height: 28px;
+}
+a {
+  text-decoration: none;
+}
 h1 {
-  width: 50%;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  font-size: 74px;
-  white-space: nowrap;
-  margin: auto;
-}
-div {
-  height: 200px;
-  background-color: coral;
-  color: #fff;
   text-transform: uppercase;
+  word-spacing: 20px;
   text-align: center;
-  line-height: 200px;
+}
+.language {
+  letter-spacing: 3px;
+  text-decoration: underline;
+  font-size: 24px;
+  opacity: 0.8;
+}
+.translate {
+  color: grey;
 }
