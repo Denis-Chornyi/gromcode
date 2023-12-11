@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 32px;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
-section {
-  margin: 32px;
-}
+
 h1 {
   word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
 }
 p {
-  margin: 32px;
   line-height: 28px;
 }
 .language {
