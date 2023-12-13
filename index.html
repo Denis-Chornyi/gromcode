@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Images</title>
+    <title>Checkbox</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -12,34 +12,11 @@
   </head>
 
   <body>
-    <form action="" class="form">
-      <div class="input_text">
-        <label for="lastName"> Last Name </label>
-        <input type="text" id="lastName" name="lastName" value="Emerson" readonly />
-      </div>
-      <div class="input_number">
-        <label for="age">Age</label>
-        <input type="number" name="age" value="17" id="age" min="3" max="10" required />
-      </div>
-      <div class="input_checkbox">
-        <input type="checkbox" name="agree" id="agree" disabled />
-        <label for="agree"> Accept terms and conditions </label>
-      </div>
-      <div class="choose-gender">
-        <input type="radio" name="gender" id="male" checked />
-        <label for="male"> Male </label>
-        <input type="radio" name="gender" id="female" />
-        <label for="female"> Female </label>
-        <input type="radio" name="gender" id="secret" />
-        <label for="secret"> Secret </label>
-      </div>
-      <div class="textarea">
-        <textarea name="description" placeholder="Write description..." maxlength="10"></textarea>
-      </div>
-      <div class="submit">
-        <button type="submit">Submit</button>
-      </div>
-    </form>
+    <label class="checkbox"
+      >Checkbox
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
   </body>
 </html>
 <!-- https://github.com/Denis-Chornyi/gromcode.git -->
