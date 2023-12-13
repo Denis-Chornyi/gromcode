@@ -18,7 +18,7 @@
           <input type="text" name="primaryLanguage" value="HTML" disabled />
         </div>
         <div class="form_block">
-          <input type="checkbox" name="agree" class="checkbox_agree" disabled />
+          <input type="checkbox" name="agree" class="checkbox_agree" readonly />
         </div>
         <div class="form_block">
           <input type="checkbox" name="like" class="checkbox_like" checked readonly />
@@ -49,7 +49,13 @@
           <input type="number" class="favourite_Number" name="favouriteNumber" value="17" />
         </div>
         <div class="form_block">
-          <textarea name="story" rows="5" calc="30" placeholder="A long time ago..."></textarea>
+          <textarea
+            class="story"
+            name="story"
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="A long time ago..."></textarea>
         </div>
         <div class="form_block">
           <input type="password" class="password" name="password" value="secret" />
@@ -57,7 +63,7 @@
         <div class="languages">
           <input type="radio" class="languege" name="language" id="html" />
           <label for="html">HTML</label>
-          <input type="radio" class="languege" name="language" id="css" />
+          <input type="radio" class="languege" name="language" id="css" checked />
           <label for="css">CSS</label>
           <input type="radio" class="languege" name="language" id="javascript" />
           <label for="javascript">JavaScript</label>
@@ -67,8 +73,8 @@
         </div>
         <div class="form_block">
           <select name="framework">
-            <option value="react">React</option>
             <option value="jquery">jQuery</option>
+            <option value="react">React</option>
             <option value="bootstart">Bootstart</option>
           </select>
         </div>
