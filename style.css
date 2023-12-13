@@ -1,6 +1,9 @@
-.video {
-  display: block;
+.iframe_block {
+  display: flex;
+  justify-content: center;
+}
+iframe {
   width: 500px;
-  margin: auto;
-  margin-top: 200px;
+  height: 400px;
+  margin: 100px 0;
 }
