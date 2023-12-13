@@ -9,34 +9,38 @@
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-    <style>
-      .rectangle {
-        background-color: aqua;
-        width: 100px;
-        height: 100px;
-      }
-
-      .text {
-        font-size: 18px;
-        line-height: 24px;
-      }
-
-      .text::first-letter {
-        color: red;
-      }
-
-      .new {
-        color: grey;
-      }
-    </style>
   </head>
 
   <body>
-    <div class="rectangle"></div>
-    <p class="text new">
-      Cascading Style Sheets — каскадные таблицы стилей) — формальный язык описания внешнего вида
-      документа, написанного с использованием языка разметки.
-    </p>
+    <div class="image-container">
+      <img
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
+        alt="nature"
+        class="img_nature" />
+    </div>
+    <div class="gallery">
+      <figure class="card">
+        <img
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="fotest_lake-opacity"
+          class="filter_opacity" />
+        <figcaption class="caption">opacity</figcaption>
+      </figure>
+      <figure class="card">
+        <img
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="fotest_lake-blur"
+          class="filter_blur" />
+        <figcaption class="caption">blur</figcaption>
+      </figure>
+      <figure class="card">
+        <img
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="fotest_lake-invert"
+          class="filter_invert" />
+        <figcaption class="caption">invert</figcaption>
+      </figure>
+    </div>
   </body>
 </html>
 
