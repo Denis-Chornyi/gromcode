@@ -12,13 +12,32 @@
   </head>
 
   <body>
-    <div class="image-container">
-      <img
-        class="image"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg"
-        alt="Meadow" />
-      <span class="image-button">Later I'll do something</span>
-    </div>
+    <form action="" class="form">
+      <div class="input_text">
+        <input type="text" name="lastName" value="Emerson" />
+      </div>
+      <div class="input_number">
+        <input type="number" name="age" value="17" />
+      </div>
+      <div class="input_checkbox">
+        <input type="checkbox" name="agree" id="agree" />
+        <label for="agree"> Accept terms and conditions </label>
+      </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender" id="gender" />
+        <label for="gender"> Male </label>
+        <input type="radio" name="gender" id="gender" />
+        <label for="gender"> Female </label>
+        <input type="radio" name="gender" id="gender" />
+        <label for="gender"> Secret </label>
+      </div>
+      <div class="textarea">
+        <textarea name="description" placeholder="Write description..."></textarea>
+      </div>
+      <div class="submit">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
 <!-- https://github.com/Denis-Chornyi/gromcode.git -->
