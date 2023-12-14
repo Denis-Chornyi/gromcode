@@ -10,7 +10,6 @@
 .table {
   min-width: 500px;
   margin: 16px;
-  line-height: 40px;
 }
 .table,
 .table_column {
@@ -22,6 +21,7 @@
   background-color: #0ff;
 }
 .table_column {
+  line-height: 40px;
   padding: 4px;
 }
 .tbody > .table_line:nth-child(odd) {
