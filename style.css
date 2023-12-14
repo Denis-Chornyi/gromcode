@@ -1,36 +1,23 @@
 * {
   box-sizing: border-box;
 }
-.shopping_list-block {
-  overflow-x: auto;
-}
-.caption_table {
-  margin-bottom: 8px;
-}
-.table {
-  min-width: 500px;
+.chess {
   margin: 16px;
 }
-.table,
-.table_column {
-  text-align: right;
+.chess,
+.chess_square {
   border: 1px solid #000;
   border-collapse: collapse;
 }
-.thead {
-  background-color: #0ff;
+td,
+.chess_square {
+  text-align: center;
+  width: 50px;
+  height: 50px;
 }
-.table_column {
-  height: 40px;
-  padding: 4px;
+tr:nth-child(even) .chess_square:nth-child(odd) {
+  background-color: #000;
 }
-.tbody > .table_line:nth-child(odd) {
-  background-color: #f2f2f2;
-}
-.tbody > .table_line:hover {
-  background-color: #aaa;
-  color: #fff;
-}
-.tfoot {
-  font-weight: 700;
+tr:nth-child(odd) .chess_square:nth-child(even) {
+  background-color: #000;
 }
