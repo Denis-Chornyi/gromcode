@@ -13,92 +13,43 @@
 
   <body>
     <main class="main">
-      <form action="" class="big_form">
-        <div class="form_block">
-          <input type="text" name="primaryLanguage" value="HTML" disabled />
-        </div>
-        <div class="form_block">
-          <input type="checkbox" name="agree" class="checkbox_agree" readonly />
-        </div>
-        <div class="form_block">
-          <input type="checkbox" name="like" class="checkbox_like" checked readonly />
-        </div>
-        <div class="form_block">
-          <input type="color" name="favouriteColor" class="color" value="#ff7f50" />
-        </div>
-        <div class="form_block">
-          <input type="date" name="birthDate" class="birth_Date" value="2021-01-02" />
-        </div>
-        <div class="form_block">
-          <input
-            type="datetime-local"
-            name="birthTime"
-            class="birth_Time"
-            value="2024-10-04T13:02" />
-        </div>
-        <div class="form_block">
-          <input type="email" name="email" class="email" placeholder="example@domain.com" />
-        </div>
-        <div class="form_block">
-          <input type="file" class="avatar" name="avatar" />
-        </div>
-        <div class="form_block">
-          <input type="month" class="start_Learning" name="startLearning" value="2020-01" />
-        </div>
-        <div class="form_block">
-          <input type="number" class="favourite_Number" name="favouriteNumber" value="17" />
-        </div>
-        <div class="form_block">
-          <textarea
-            class="story"
-            name="story"
-            id=""
-            cols="30"
-            rows="5"
-            placeholder="A long time ago..."></textarea>
-        </div>
-        <div class="form_block">
-          <input type="password" class="password" name="password" value="secret" />
-        </div>
-        <div class="languages">
-          <input type="radio" class="languege" name="language" id="html" />
-          <label for="html">HTML</label>
-          <input type="radio" class="languege" name="language" id="css" checked />
-          <label for="css">CSS</label>
-          <input type="radio" class="languege" name="language" id="javascript" />
-          <label for="javascript">JavaScript</label>
-        </div>
-        <div class="form_block">
-          <input type="range" class="learning_Progress" name="learningProgress" value="30" />
-        </div>
-        <div class="form_block">
-          <select name="framework">
-            <option value="jquery">jQuery</option>
-            <option value="react">React</option>
-            <option value="bootstrap">Bootstrap</option>
-          </select>
-        </div>
-        <div class="form_block">
-          <input type="search" name="search" class="search" placeholder="Type first letters..." />
-        </div>
-        <div class="form_block">
-          <input type="time" class="lunch_End" name="lunchEnd" value="14:01" />
-        </div>
-        <div class="form_block">
-          <input
-            type="url"
-            class="website"
-            name="website"
-            placeholder="https://website.com"
-            required />
-        </div>
-        <div class="form_block">
-          <input type="week" class="birth_Week" name="birthWeek" value="2021-W51" />
-        </div>
-        <div class="form_block">
-          <button class="submit">Save</button>
-        </div>
-      </form>
+      <table>
+        <caption>
+          Shopping list
+        </caption>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Amount</th>
+            <th>Price</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Milk</td>
+            <td>3</td>
+            <td>$2</td>
+            <td>$6</td>
+          </tr>
+          <tr>
+            <td>Bread</td>
+            <td>4</td>
+            <td>$1</td>
+            <td>$4</td>
+          </tr>
+          <tr>
+            <td>Meat</td>
+            <td>5</td>
+            <td>$10</td>
+            <td>$50</td>
+          </tr>
+          <tfoot>
+            <td colspan="3">Total</td>
+            <td>$60</td>
+          </tfoot>
+        </tbody>
+      </table>
     </main>
   </body>
 </html>

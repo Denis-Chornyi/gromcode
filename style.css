@@ -1,9 +1,18 @@
 * {
   box-sizing: border-box;
 }
-.big_form {
-  margin: 32px;
+table {
+  width: 500px;
+  margin: 16px;
 }
-.big_form div {
-  margin: 8px;
+table,
+th,
+td {
+  text-align: right;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 4px;
 }
