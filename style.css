@@ -1,18 +1,36 @@
 * {
   box-sizing: border-box;
 }
-table {
-  width: 500px;
-  margin: 16px;
+.shopping_list-block {
+  overflow-x: auto;
 }
-table,
-th,
-td {
+.caption_table {
+  margin-bottom: 8px;
+}
+.table {
+  min-width: 500px;
+  margin: 16px;
+  line-height: 40px;
+}
+.table,
+.table_column {
   text-align: right;
   border: 1px solid #000;
   border-collapse: collapse;
 }
-th,
-td {
+.thead {
+  background-color: #0ff;
+}
+.table_column {
   padding: 4px;
+}
+.tbody > .table_line:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.tbody > .table_line:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+.tfoot {
+  font-weight: 700;
 }
