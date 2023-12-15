@@ -1,19 +1,37 @@
 * {
   box-sizing: border-box;
 }
-.battery {
+.container {
+  margin: 32px;
+}
+.rect {
+  width: 100px;
+  height: 100px;
+  margin: 16px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7f50;
+  opacity: 0.5;
+  transition-property: width, opacity;
+  transition-duration: 2s, 0.5s;
 }
-.fa-battery-three-quarters {
-  font-size: 32px;
+.rect:hover {
+  opacity: 1;
+  width: 100%;
 }
-.fa-battery-half {
-  font-size: 64px;
+.linear {
+  transition-timing-function: linear;
 }
-.fa-battery-quarter {
-  font-size: 128px;
+.ease {
+  transition-timing-function: ease;
 }
-.fa-battery-empty {
-  font-size: 256px;
+.ease-in {
+  transition-timing-function: ease-in;
+}
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
