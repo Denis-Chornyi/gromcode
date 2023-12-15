@@ -1,23 +1,20 @@
 * {
   box-sizing: border-box;
 }
-.chess {
-  margin: 16px;
+.row {
+  display: flex;
 }
-.chess,
-.chess_square {
-  border: 1px solid #000;
-  border-collapse: collapse;
+.column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-td,
-.chess_square {
-  text-align: center;
-  width: 50px;
-  height: 50px;
+.small-bird {
+  width: 64px;
+  height: 64px;
 }
-tr:nth-child(even) .chess_square:nth-child(odd) {
-  background-color: #000;
-}
-tr:nth-child(odd) .chess_square:nth-child(even) {
-  background-color: #000;
+.large-bird {
+  width: 320px;
+  height: 320px;
 }
