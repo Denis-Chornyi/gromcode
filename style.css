@@ -13,6 +13,7 @@
   font-weight: 700;
   border: none;
   cursor: pointer;
+  line-height: 50px;
 }
 .button:hover {
   color: #008b8b;
@@ -25,4 +26,7 @@
 }
 .button:hover > .bird_pic {
   fill: #080;
+}
+.fa-id-card {
+  vertical-align: middle;
 }
