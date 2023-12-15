@@ -1,20 +1,28 @@
 * {
   box-sizing: border-box;
 }
-.row {
-  display: flex;
+.button {
+  margin: 64px;
+  width: 200px;
+  height: 50px;
+  background-color: #ff7f50;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
 }
-.column {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.button:hover {
+  color: #008b8b;
 }
-.small-bird {
-  width: 64px;
-  height: 64px;
+.bird_pic {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  fill: #fff;
 }
-.large-bird {
-  width: 320px;
-  height: 320px;
+.button:hover > .bird_pic {
+  fill: #080;
 }
