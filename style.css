@@ -27,6 +27,6 @@
   margin: auto;
   padding: 4px;
   overflow-x: hidden;
-  text-wrap: nowrap;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }
