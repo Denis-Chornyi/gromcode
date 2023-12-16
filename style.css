@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  height: 100vh;
+}
+.gallery {
+  display: flex;
+  width: 80%;
+  background-color: #fa5;
+}
+.image {
+  margin: auto;
+  max-width: 100%;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.ideas {
+  display: flex;
+  width: 20%;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #5af;
+}
+.idea {
+  margin: auto;
+  padding: 4px;
+  overflow-x: hidden;
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+}
