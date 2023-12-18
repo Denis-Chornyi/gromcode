@@ -58,14 +58,11 @@ body {
 .section__header {
   text-align: center;
   font-size: 4.99vw;
-  line-height: 5.8vw;
+  line-height: 5.9vw;
 }
 .section__text {
   line-height: normal;
   margin-bottom: 19px;
-}
-.units-list {
-  margin-top: 22px;
 }
 .css-units {
   font-size: 1.125em;
