@@ -82,6 +82,6 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .section__header {
-    margin-top: 26px;
+    margin: 26px 0 23px 0;
   }
 }
