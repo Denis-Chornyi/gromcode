@@ -19,6 +19,7 @@ body {
   text-align: center;
   line-height: 2.45em;
   background-image: linear-gradient(60deg, #f00, #ffa500);
+  padding-bottom: 1px;
 }
 .main {
   display: flex;
@@ -26,7 +27,7 @@ body {
 }
 .navigation {
   margin-top: 1px;
-  padding: 0.52em 0.5em;
+  padding: 0.45em 0.5em;
   width: 20%;
 }
 .nav-list {
@@ -52,7 +53,7 @@ body {
   width: 60%;
   font-size: 1.25em;
   line-height: 1.75em;
-  padding: 0.5em;
+  padding: 0.43em 0.5em;
 }
 .section__header {
   text-align: center;
@@ -71,12 +72,9 @@ body {
 }
 .news {
   width: 20%;
-  padding: 0.5em;
+  padding: 0.43em 0.5em;
 }
-.news > h2,
-p {
-  line-height: 1.12;
-}
+
 .footer {
   text-align: center;
   padding: 0.5em;
