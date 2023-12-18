@@ -1,91 +1,88 @@
 * {
   box-sizing: border-box;
 }
+
 html {
-  height: 100%;
-  font-size: 16px;
   font-family: Verdana;
   color: #555;
+  font-size: 16px;
 }
+
 body {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 2px;
+  min-height: 100vh;
 }
-.header > h1 {
-  margin: 0;
-  color: #fff;
-  text-align: center;
-  line-height: 2.45em;
-  background-image: linear-gradient(60deg, #f00, #ffa500);
-  padding-bottom: 1px;
-}
+
 .main {
+  flex: 1;
   display: flex;
-  flex: 1 1 auto;
 }
-.navigation {
-  margin-top: 1px;
-  padding: 0.45em 0.5em;
-  width: 20%;
+
+.header {
+  background-image: linear-gradient(60deg, red, orange);
+  text-align: center;
+  color: white;
 }
-.nav-list {
-  padding: 0;
-  list-style-type: none;
-}
-.nav-list-item {
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  background-color: #808080;
-}
-.nav-list-link {
-  display: block;
-  color: #fff;
-  width: 100%;
-  padding: 0 0.5em;
-  text-decoration: none;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
+
 .section {
   width: 60%;
+  padding: 0.5em;
   font-size: 1.25em;
-  line-height: 1.75em;
-  padding: 0.43em 0.5em;
 }
+
+.navigation {
+  width: 20%;
+  padding: 0.5em;
+}
+
+.nav-list {
+  padding: 0;
+}
+
+.nav-list-item {
+  list-style-type: none;
+  height: 2em;
+  background-color: grey;
+  line-height: 2em;
+  color: white;
+  margin-bottom: 0.5em;
+}
+
+.nav-list-link {
+  width: 100%;
+  display: inline-block;
+  padding: 0 0.5em;
+  text-decoration: none;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .section__header {
+  font-size: 5vw;
   text-align: center;
-  font-size: 4.99vw;
-  line-height: 5.9vw;
-  margin: 50px 0 49px 0;
 }
-.section__text {
-  line-height: normal;
-  margin-bottom: 18px;
-}
+
 .css-units {
   font-size: 1.125em;
   font-weight: 700;
   color: #8b0000;
   background-color: #e5e5e5;
 }
+
+.units-list {
+  line-height: 1.75em;
+}
+
 .news {
   width: 20%;
   padding: 0.5em;
 }
 
 .footer {
+  background-color: #e5e5e5;
   text-align: center;
   padding: 0.5em;
-  background-color: #e5e5e5;
-}
-@media screen and (max-width: 1000px) {
-  .section__header {
-    margin: 26px 0 24px 0;
-  }
-  .units-list {
-    margin-top: 21px;
-  }
 }
