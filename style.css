@@ -59,6 +59,7 @@ body {
   text-align: center;
   font-size: 4.99vw;
   line-height: 5.9vw;
+  margin: 48px 0 51px 0;
 }
 .section__text {
   line-height: normal;
@@ -82,6 +83,6 @@ body {
 }
 @media screen and (max-width: 1000px) {
   .section__header {
-    margin: 26px 0 24px 0;
+    margin: 25px 0;
   }
 }
