@@ -31,7 +31,6 @@ body {
 .nav-list {
   padding: 0;
   list-style-type: none;
-  margin: 15px 0;
 }
 .nav-list-item {
   line-height: 2.05em;
@@ -56,7 +55,7 @@ body {
 }
 .section__header {
   text-align: center;
-  font-size: 5vw;
+  font-size: 4.99vw;
   line-height: normal;
 }
 .section__text {
