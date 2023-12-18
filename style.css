@@ -61,9 +61,7 @@ body {
 }
 .section__text {
   line-height: normal;
-}
-.units-list {
-  margin: 21px 0;
+  margin-bottom: 19px;
 }
 .css-units {
   font-size: 1.125em;
@@ -74,6 +72,10 @@ body {
 .news {
   width: 20%;
   padding: 0.5em;
+}
+.news > h2,
+p {
+  line-height: 1.12;
 }
 .footer {
   text-align: center;
