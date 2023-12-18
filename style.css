@@ -11,6 +11,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2px;
 }
 .header > h1 {
   margin: 0;
@@ -30,6 +31,7 @@ body {
 .nav-list {
   padding: 0;
   list-style-type: none;
+  margin: 15px 0;
 }
 .nav-list-item {
   line-height: 2em;
@@ -56,6 +58,7 @@ body {
   text-align: center;
   font-size: 5vw;
   line-height: normal;
+  margin: 59px 0;
 }
 .section__text {
   line-height: normal;
@@ -69,6 +72,9 @@ body {
 .news {
   width: 20%;
   padding: 0.5em;
+}
+.news > h2 {
+  margin: 19px 0;
 }
 .footer {
   text-align: center;
