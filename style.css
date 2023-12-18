@@ -33,7 +33,7 @@ body {
   list-style-type: none;
 }
 .nav-list-item {
-  line-height: 2em;
+  line-height: 1.95em;
   margin-bottom: 0.5em;
   background-color: #808080;
 }
@@ -60,6 +60,9 @@ body {
 }
 .section__text {
   line-height: normal;
+}
+.units-list {
+  margin: 21px 0;
 }
 .css-units {
   font-size: 1.125em;
