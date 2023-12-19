@@ -1,42 +1,10 @@
 * {
   box-sizing: border-box;
 }
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: lowercase;
-}
-.section div {
-  min-height: 200px;
-}
-.nav {
-  background-color: #ff7f50;
+.content {
   display: flex;
-  flex: 1;
+  justify-content: center;
 }
-.products-list {
-  background-color: #006400;
-  display: flex;
-  flex: 1;
-}
-.news {
-  background-color: #0ff;
-  display: flex;
-  flex: 1;
-}
-.section__text {
-  background-color: #faebd7;
-  padding: 8px;
-  border-radius: 4px;
-  margin: auto;
-}
-@media screen and (min-width: 600px) {
-  .content {
-    display: flex;
-    flex: 2;
-  }
-}
-@media screen and (min-width: 900px) {
-  .section {
-    display: flex;
-  }
+.img-big__pic {
+  max-width: 100%;
 }
