@@ -1,0 +1,25 @@
+.section div {
+  min-height: 200px;
+
+  .nav {
+    background-color: #ff7f50;
+    display: flex;
+    flex: 1;
+  }
+  .products-list {
+    background-color: #006400;
+    display: flex;
+    flex: 1;
+  }
+  .section__text {
+    background-color: #faebd7;
+    padding: 8px;
+    border-radius: 4px;
+    margin: auto;
+  }
+}
+.news {
+  background-color: #0ff;
+  display: flex;
+  flex: 1;
+}

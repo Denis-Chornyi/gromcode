@@ -1,57 +1,48 @@
-.header {
+.section div {
+  min-height: 200px;
+}
+.section div .nav {
+  background-color: #ff7f50;
+  display: flex;
+  flex: 1;
+}
+.section div .products-list {
   background-color: #006400;
+  display: flex;
+  flex: 1;
+}
+.section div .section__text {
+  background-color: #faebd7;
+  padding: 8px;
+  border-radius: 4px;
+  margin: auto;
 }
 
-.menu {
-  height: 3em;
+.news {
+  background-color: #0ff;
   display: flex;
-  color: #fff;
-  margin: 0 0 0 3em;
-  padding: 0;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.menu__item {
-  line-height: 3em;
-  display: inline-block;
-  padding: 0 8px;
-}
-.menu__item:hover {
-  background-color: #9acd32;
-}
-.menu .menu__item_active {
-  color: #ff0;
-  max-width: 105.26px;
-}
-.menu .menu__item_active:hover > .submenu {
-  display: block;
-}
-.menu .submenu {
-  display: none;
-  min-width: 120px;
-  margin: 0;
-  padding: 0;
-  background-color: #ff7f50;
-  color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-.menu .submenu__item {
-  line-height: 3em;
-  padding: 0 8px;
-}
-.menu .submenu__item:hover {
-  color: #000;
+  flex: 1;
 }
 
 * {
   box-sizing: border-box;
-  list-style-type: none;
 }
 
-html {
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
+  text-transform: lowercase;
+}
+
+@media screen and (min-width: 600px) {
+  .content {
+    display: flex;
+    flex: 2;
+  }
+}
+@media screen and (min-width: 900px) {
+  .section {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
