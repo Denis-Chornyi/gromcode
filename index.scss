@@ -1,35 +1,10 @@
-@import 'breakpoints.scss';
+@import 'header.scss';
 
 * {
   box-sizing: border-box;
+  list-style-type: none;
 }
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.container {
-  display: grid;
-}
-.square {
-  width: 100px;
-  height: 100px;
-  margin: 8px;
-  background-color: #ff7f50;
-
-  @include for-medium-up {
-    background-color: #8a2be2;
-  }
-  @include for-desktop {
-    background-color: #a61;
-  }
-  @include for-screen-big {
-    background-color: #c47;
-  }
-}
-.container {
-  @include for-landscape {
-    display: flex;
-  }
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
