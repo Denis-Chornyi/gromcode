@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
 .header {
   background-color: #eee;
 }
@@ -19,18 +28,11 @@
   font-weight: 700;
   cursor: pointer;
 }
-.nav-list__item:hover {
-  opacity: 0.7;
+.nav-list__item_selected {
   background-color: #fb0;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
+.nav-list__item:hover {
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=styles.css.map */
