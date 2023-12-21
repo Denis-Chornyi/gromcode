@@ -6,6 +6,7 @@
   display: flex;
   color: #fff;
   margin: 0 0 0 3em;
+  padding: 0;
   text-transform: uppercase;
   cursor: pointer;
 
@@ -21,7 +22,7 @@
 
   .menu__item_active {
     color: #ff0;
-    max-width: 105.28px;
+    max-width: 105.26px;
   }
   .menu__item_active:hover > .submenu {
     display: block;
