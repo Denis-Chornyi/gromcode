@@ -2,37 +2,39 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-}
-
-.header {
-  background-color: #eee;
-}
-
-.nav-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+.wrapper {
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: 56px;
+  height: 100vh;
 }
-.nav-list__item {
-  padding: 8px;
-  margin-left: 8px;
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 8px;
   background-color: #ff7f50;
-  border-radius: 4px;
-  color: #fff;
-  font-weight: 700;
-  cursor: pointer;
 }
-.nav-list__item_selected {
-  background-color: #fb0;
+@media screen and (min-width: 600px) {
+  .square {
+    background-color: #8a2be2;
+  }
 }
-.nav-list__item:hover {
-  opacity: 0.7;
+@media screen and (min-width: 900px) {
+  .square {
+    background-color: #a61;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .square {
+    background-color: #c47;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .container {
+    display: flex;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
