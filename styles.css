@@ -9,6 +9,10 @@
   height: 100vh;
 }
 
+.container {
+  display: grid;
+}
+
 .square {
   width: 100px;
   height: 100px;
